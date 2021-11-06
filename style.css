@@ -1,0 +1,44 @@
+/*CSS DOCUMENT*/
+
+body{
+    background-repeat: no-repeat;
+    background-image: url("https://image.freepik.com/fotos-gratis/almoco-saudavel-para-ir-embalado-na-lancheira_1220-4541.jpg");
+    background-size:100%;
+}
+h1{
+    text-align:center;
+    font-size:52px;
+    margin-top:200px;
+}
+#calculator{
+    text-align:center;
+    font-size:38px;
+}
+#result{
+    text-align:center;
+    font-size:38px;
+    padding-top:35px;
+}
+table{
+    margin:auto;
+    background-color:white;
+    border-width: thick;
+    font-size:32px;
+    border-style:solid; 
+}
+th{
+    border-style:solid;
+}
+tr{
+    border-style:solid;
+}
+td{
+    border-style:solid;
+    text-align:center;
+}
+button{
+    font-size:28px;
+    color:white;
+    border-radius:22px;
+    background-color:green;
+}

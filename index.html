@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Calculadora de IMC</title>
+        <link rel="shortcut icon" href="logo.ico" type="image/x-icon">
+        <linK rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <h1>Calcule de IMC:</h1>
+        <div id="calculator"><form name="imcdados" action="" method="post">
+        Peso(kg): <input type="number" name="f_peso"><br>
+        Altura(m): <input type="number" name="f_altura"><br>
+        <button name="btn_calc" onclick="calcular()">Calcular </button>
+        <button type="reset" name="btn_cancelar">Limpar</button>
+    </form>
+    </div>
+
+    <!--<div id="result">
+        <form name="fresultado" action="" method="post">
+            Resultado: <input type="text" name="f_result">
+        </form>
+    </div>
+//-->
+
+<table>
+    <ul>
+        <th>IMC</th><th>Classificação</th>
+        <tr>
+        <td>MENOR QUE 18,5</td><td>ABAIXO DO PESO</td>
+        <tr>
+            <td>ENTRE 18,5 E 24,9</td><td>PESO NORMAL</td>
+            <tr>
+                <td>ENTRE 25 E 29,9</td><td>SOBREPESO</td>
+                <tr>
+                    <td>ENTRE 30 E 39,9</td><td>OBESIDADE</td>
+                    <tr>
+                        <td>MAIOR QUE 40</td><td>OBESIDADE MÓRBIDA</td>
+                    </table>
+            
+    <script src="calc.js"></script>
+
+    </body> 
+</html>
