@@ -41,4 +41,5 @@ button{
     color:white;
     border-radius:22px;
     background-color:green;
+    cursor: pointer;
 }
