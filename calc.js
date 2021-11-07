@@ -1,12 +1,10 @@
-
+/*JAvaScript Document*/
 		
-
 		let js_peso;
 		let js_altura;
 		let js_imc;
         let js_resultado;
         
-
 		function calcular() {
 		
 		js_peso= document.imcdados.f_peso.value;
