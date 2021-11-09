@@ -1,18 +1,27 @@
 /*JAvaScript Document*/
 		
-		let js_peso;
-		let js_altura;
-		let js_imc;
-        let js_resultado;
-        
-		function calcular() {
+var js_peso;
+var js_altura;
+var js_imc;	
+
+		 function calcular(){
+
+		
 		
 		js_peso= document.imcdados.f_peso.value;
 		js_altura= document.imcdados.f_altura.value;
 		js_imc= js_peso / (js_altura / 100 ^ 2);
+		let r = document.querySelector(".res");
+		
+		r.innerHTML = ("Seu IMC É: " + js_imc.toFixed(2));
+
         
-        window.alert('Seu IMC é: ' + js_imc);
-}
+		 }
+
+		
+
+
+
 
   
   
