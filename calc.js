@@ -13,10 +13,10 @@ var js_imc;
 		js_imc= js_peso / (js_altura / 100 ^ 2);
 		let r = document.querySelector(".res");
 		
-		r.innerHTML = ("Seu IMC É: " + js_imc.toFixed(2));
+		r.innerHTML = ("Seu IMC É: " + js_imc.toFixed(2))
 
-        
 		 }
+		 
 
 		
 
