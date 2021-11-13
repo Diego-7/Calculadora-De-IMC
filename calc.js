@@ -11,9 +11,9 @@ var js_imc;
 		js_peso= document.imcdados.f_peso.value;
 		js_altura= document.imcdados.f_altura.value;
 		js_imc= js_peso / (js_altura / 100 ^ 2);
-		let r = document.querySelector(".res");
+		let resultado = document.querySelector(".resultadoDoImc");
 		
-		r.innerHTML = ("Seu IMC É: " + js_imc.toFixed(2))
+		resultado.innerHTML = ("Seu IMC É: " + js_imc.toFixed(2))
 
 		 }
 		 
