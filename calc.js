@@ -1,4 +1,4 @@
-/*JAvaScript Document*/
+/*JavaScript Document*/
 		
 var js_peso;
 var js_altura;

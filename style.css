@@ -27,16 +27,11 @@ table{
     font-size:32px;
     border-style:solid; 
 }
-th{
-    border-style:solid;
-}
-tr{
-    border-style:solid;
-}
-td{
+th, tr, td{
     border-style:solid;
     text-align:center;
 }
+
 button{
     margin-top:18px;
     font-size:48px;
