@@ -3,7 +3,7 @@
 body{
     background-repeat:repeat-y;
     background-image: url("https://image.freepik.com/fotos-gratis/almoco-saudavel-para-ir-embalado-na-lancheira_1220-4541.jpg");
-    background-size:100%;
+    background-size: cover;
     font-size:58px;
 }
 h1{
