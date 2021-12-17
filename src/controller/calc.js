@@ -1,5 +1,3 @@
-/*JavaScript Document*/
-		
 var js_peso;
 var js_altura;
 var js_imc;	
