@@ -13,6 +13,15 @@ var js_imc;
 
 		 }
 
+		 document.addEventListener('keypress', e=>{
+
+			let btn = document.querySelector('#btnCa');
+
+			if(e.key === 'Enter'){
+				btn.click();
+			}
+		 })
+
 
 
 		 
