@@ -1,9 +1,10 @@
 /*CSS DOCUMENT*/
 
 body{
-    background-repeat:repeat-y;
     background-image: url("https://image.freepik.com/fotos-gratis/almoco-saudavel-para-ir-embalado-na-lancheira_1220-4541.jpg");
     background-size: cover;
+    background-repeat: no-repeat;
+    background-color:rgb(199, 218, 243);
     font-size:58px;
 }
 h1{
@@ -44,4 +45,13 @@ input{
     width:140px;
     height:28px;
     font-size:28px;
+}
+
+@media (max-width: 700px){
+
+    body{
+        height:100%;
+        width:100%;
+    }
+
 }
