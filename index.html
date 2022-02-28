@@ -12,8 +12,10 @@
     <body>
         <h1>Calcule seu IMC:</h1>
         <div id="calculator"><form name="imcdados" action="" method="post">
-        Peso(kg): <input type="number" name="f_peso"><br>
-      Altura(cm): <input type="number" name="f_altura"><br>
+        <label class="fields">Peso(kg):</label> 
+        <input type="number" name="f_peso"><br>
+      <label class="fields">Altura(cm): </label>
+      <input type="number" name="f_altura"><br>
         <button type ="button" name="btn_calc" id="btnCa" onclick="calculate()">Calcular </button>
         <button type="reset" name="btn_cancelar" onclick="clearBtn()"class="clearButton">Limpar</button>
     </form>
